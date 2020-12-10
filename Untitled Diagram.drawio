@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-10T16:02:00.305Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="7f9mZH6kPaI5xF8bn44o" version="14.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-10T16:19:45.104Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="ryJhOFWhGIVPsh5rW-yi" version="14.0.0" type="github">
   <diagram id="SJgFfLJ4Xzr0zGgZQ5Ph" name="ページ1">
     <mxGraphModel dx="2600" dy="4016" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -553,6 +553,7 @@
             <mxPoint x="-50" y="-2800" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-40" y="-3160" />
+              <mxPoint x="-50" y="-3000" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -605,12 +606,21 @@
           <mxGeometry x="30" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZuCImtXs0Fwf6ti-tjpx-253" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fontSize=14;" vertex="1" parent="ZuCImtXs0Fwf6ti-tjpx-237">
-          <mxGeometry y="180" width="180" height="30" as="geometry" />
+          <mxGeometry y="180" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZuCImtXs0Fwf6ti-tjpx-254" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="ZuCImtXs0Fwf6ti-tjpx-253">
-          <mxGeometry width="30" height="30" as="geometry" />
+          <mxGeometry width="30" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZuCImtXs0Fwf6ti-tjpx-255" value="・注文ステータス" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="ZuCImtXs0Fwf6ti-tjpx-253">
+          <mxGeometry x="30" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuCImtXs0Fwf6ti-tjpx-260" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fontSize=14;" vertex="1" parent="ZuCImtXs0Fwf6ti-tjpx-237">
+          <mxGeometry y="230" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuCImtXs0Fwf6ti-tjpx-261" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="ZuCImtXs0Fwf6ti-tjpx-260">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuCImtXs0Fwf6ti-tjpx-262" value="・制作ステータス" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="ZuCImtXs0Fwf6ti-tjpx-260">
           <mxGeometry x="30" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZuCImtXs0Fwf6ti-tjpx-256" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZuCImtXs0Fwf6ti-tjpx-253">
@@ -620,6 +630,15 @@
             <Array as="points">
               <mxPoint x="-290" y="-2330" />
               <mxPoint x="-290" y="-1985" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZuCImtXs0Fwf6ti-tjpx-259" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-940" y="-1960" as="sourcePoint" />
+            <mxPoint x="-760" y="-1960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-930" y="-1960" />
             </Array>
           </mxGeometry>
         </mxCell>
